@@ -1,3 +1,20 @@
+
+// es5继承
+// function Person(name,age){
+//   this.name =name
+//   this.age= age
+  
+//   this.run =function(){}
+// }
+// Person.prototype.work = function(){}
+
+// function Web(name, age){
+//   Person.call(this,name,age)  //对象冒充继承
+// }
+// Web.prototype = new Person()
+// var w = new Web('web', 20)
+// w.work()
+
 (function() {
   class Animal{
     name: string
